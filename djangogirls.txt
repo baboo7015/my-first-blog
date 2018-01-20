@@ -1,0 +1,11 @@
+d:\
+cd d:\YandexDisk\Program\Python\Djangogirls
+myvenv\Scripts\activate
+python manage.py runserver
+rem python manage.py stopserver
+
+python manage.py startapp blog
+python manage.py makemigrations blog
+python manage.py migrate blog
+
+python manage.py createsuperuser
